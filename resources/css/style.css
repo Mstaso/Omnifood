@@ -114,8 +114,39 @@ h2:after {
     margin-bottom: 10px;
 }
 
+.icon-small {
+    color: #e67e22;
+    text-align: center;
+    width: 30px;
+    display: inline-block;
+    font-size: 120%;
+    margin-right: 10px;
+
+    /* secrets to align text and icons */
+    vertical-align: middle;
+    line-height: 120%;
+    margin-top: -5px;
+    
+    
+}
 
 
+/* Links */
+a:link,
+a:active,
+a {
+    text-decoration: none;
+    color: #e67e22;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555555;
+    border-bottom: 1px solid transparent;
+}
 
 
 /* ------------------- */
@@ -132,6 +163,12 @@ h2:after {
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     margin-right: 15px;
 
+}
+
+.btn-app,
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
 }
 
 
@@ -314,4 +351,12 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+/* City Sections */
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
