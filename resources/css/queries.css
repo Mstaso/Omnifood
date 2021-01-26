@@ -30,7 +30,7 @@
     .icon-small { 
         margin-right: 5px; 
         width: 17px; }
-    .city-feature { font-size: 20%; }
+    .city-feature { font-size: 80%; }
 
     .plan-box {
         width: 100%;
@@ -90,5 +90,7 @@
 /* small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
 
+    section { padding: 25px 0;}
+    .contact-form {width: 100%;}
 }
 
